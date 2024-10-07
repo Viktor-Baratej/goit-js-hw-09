@@ -92,7 +92,7 @@ const galleryMarkup = images.map(({ preview, original, description }) => `
 galleryContainer.innerHTML = galleryMarkup;
 
 // Ініціалізація SimpleLightbox
-const lightbox = new SimpleLightbox('.gallery a', {
+const lightbox = new SimpleLightbox('.gallery .gallery-link', {
     captionsData: 'alt',
     captionDelay: 250,
 });
