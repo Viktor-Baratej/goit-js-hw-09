@@ -1,0 +1,11 @@
+ul,
+ol {
+  list-style-type: none;
+}
+
+a {
+  font-size: 18px;
+}
+li {
+  padding: 10px;
+}
